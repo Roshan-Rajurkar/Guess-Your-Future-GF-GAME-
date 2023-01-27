@@ -3,14 +3,16 @@
   padding: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-body{
-background-color: #b9f3fc;
+
+body {
+  background-color: #b9f3fc;
 }
-.top{
+
+.top {
   text-align: center;
 }
 
-#heading{
+#heading {
   font-size: 22px;
   font-weight: 800;
   color: rgb(92, 11, 11);
@@ -49,9 +51,9 @@ header .input input {
 
 .generateName {
   height: 50px;
-  padding: 10px;
+  padding: 5px;
   border: none;
-  font-size: 18px;
+  font-size: 15px;
   background-color: rgb(163, 172, 163);
   cursor: pointer;
 }
@@ -67,49 +69,49 @@ header .input input {
   /* border: 1px solid rgb(206, 123, 194); */
 }
 
-.input__names{
-    margin: 10px auto;
-    height: fit-content;
+.input__names {
+  margin: 10px auto;
+  height: fit-content;
 }
 
-.title{
-    margin: 10px 0px;
+.title {
+  margin: 10px 0px;
 }
 
-.name__container{
-width:70%;
-margin : 0 auto;
-    background-color: #f2f9fb;
+.name__container {
+  width: 70%;
+  margin: 0 auto;
+  background-color: #f2f9fb;
 }
 
-.name{
-    text-align: center;
-    font-size: 30px;
-    font-weight: 600;
-    padding: 5px 0px;
-    border-top: 1px solid grey;
-    border-bottom: 1px solid grey;
-    color: rgb(40, 170, 179);
+.name {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 5px 0px;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  color: rgb(40, 170, 179);
 }
 
-.input__result{
-    width: 100%;
-    height: 70px;
-    background-color: red;
+.input__result {
+  width: 100%;
+  height: 70px;
+  background-color: red;
 }
 
-.result{
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: 32px;
-    font-weight: bolder;
-    color: #ffffff;
+.result {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bolder;
+  color: #ffffff;
 }
 
-.generate_output{
+.generate_output {
   padding: 10px 20px;
   border: none;
   border-radius: 8px;
@@ -120,7 +122,7 @@ margin : 0 auto;
   background-color: rgb(139, 233, 139);
 }
 
-.generate_output:hover{
+.generate_output:hover {
   transition: all 0.4s;
   background-color: rgb(30, 207, 30);
   color: #ffffff;
@@ -128,11 +130,11 @@ margin : 0 auto;
 
 
 @media (min-width : 768px) {
-  #heading{
+  #heading {
     font-size: 40px;
   }
 
-  .name__container{
+  .name__container {
     width: 40%;
   }
 }
