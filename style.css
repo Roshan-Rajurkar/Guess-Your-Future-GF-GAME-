@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+background-color: #b9f3fc;
+}
+.top{
+  text-align: center;
+}
+
+#heading{
+  font-size: 25px;
+  font-weight: 800;
+  color: rgb(92, 11, 11);
+  margin: 10px 0;
+}
+
+.game {
+  width: 90%;
+  margin: 20px auto;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 20px 5px;
+}
+
+.input {
+  width: 60%;
+}
+
+header .input input {
+  width: 100%;
+  height: 50px;
+  font-size: 22px;
+  font-weight: 600;
+  color: rgb(65, 75, 72);
+  outline: none;
+  border: none;
+  padding: 0 10px;
+  border-bottom: 1px solid grey;
+}
+
+.generateName {
+  height: 50px;
+  padding: 10px;
+  border: none;
+  font-size: 18px;
+  background-color: rgb(163, 172, 163);
+  cursor: pointer;
+}
+
+.generateName:hover {
+  transition: all 0.4s;
+  background-color: rgb(73, 175, 73);
+  color: white;
+}
+
+.data__store {
+  width: 100%;
+  /* border: 1px solid rgb(206, 123, 194); */
+}
+
+.input__names{
+    margin: 10px auto;
+    height: fit-content;
+}
+
+.title{
+    margin: 10px 0px;
+}
+
+.name__container{
+width:40%;
+margin : 0 auto;
+    background-color: #f2f9fb;
+}
+
+.name{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 5px 0px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    color: rgb(40, 170, 179);
+}
+
+.input__result{
+    width: 100%;
+    height: 70px;
+    background-color: red;
+}
+
+.result{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bolder;
+    color: #ffffff;
+}
+
+.generate_output{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  margin: 10px 0;
+  cursor: pointer;
+  font-size: 28px;
+  font-weight: 800;
+  background-color: rgb(139, 233, 139);
+}
+
+.generate_output:hover{
+  transition: all 0.4s;
+  background-color: rgb(30, 207, 30);
+  color: #ffffff;
+}
+
+
+@media (min-width : 768px) {
+  #heading{
+    font-size: 40px;
+  }
+}
